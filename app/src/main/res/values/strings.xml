@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Helpr App</string>
+    <string-array name="animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Cattle</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="donatelist">
+        <item>Helpr</item>
+        <item>Red paws</item>
+        <item>Save our strays</item>
+        <item>Animal angels</item>
+    </string-array>
+    <string-array name="ngos">
+        <item>"Circle Of Animal Lovers"</item>
+        <item>"Red Paws"</item>
+        <item>"Save Our Strays"</item>
+        <item>"Animal Angels"</item>
+    </string-array>
+    <string-array name="animalhelped">
+        <item>"Dog"</item>
+        <item>"Cat"</item>
+        <item>"Dog"</item>
+        <item>"Cattle"</item>
+    </string-array>
+    <string name="title_activity_userone">userone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

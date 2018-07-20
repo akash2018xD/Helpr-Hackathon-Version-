@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.helprapp.helprfragtwo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:text="Where Are You?"
+        android:textSize="70px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/whereareyou"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:textSize="50px"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/whereareyou"
+        android:id="@+id/mylocation"
+        android:layout_centerHorizontal="true"
+        android:text="*Use the Locate button to locate yourself :o."
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/locationpin"
+        android:id="@+id/buttonlocate"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/whereareyou"
+        android:layout_marginTop="200dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nextbutton"
+        android:id="@+id/nextbuttontofragthree"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonlocate"
+        android:layout_marginTop="55dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/monkeytwo"
+        android:layout_below="@+id/buttonlocate"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/monkeytwo"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/monkeytwo"
+        android:id="@+id/monkeyone"
+        android:src="@drawable/monkeyone"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/buttonlocate"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/monkeytwo"
+        android:id="@+id/monkeythree"
+        android:src="@drawable/monkeythree"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/buttonlocate"/>
+
+
+
+
+</RelativeLayout>

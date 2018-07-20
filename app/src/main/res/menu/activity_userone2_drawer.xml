@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/blankarrow"
+            android:title="Help" />
+        <item
+            android:id="@+id/donate"
+            android:icon="@drawable/blankarrow"
+            android:title="Donate" />
+        <item
+            android:id="@+id/points"
+            android:icon="@drawable/blankarrow"
+            android:title="Points" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/blankarrow"
+            android:title="Events" />
+    </group>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log-Out"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.helprapp.helprfragthree">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:text="Please, Help Us With A Picture."
+        android:textSize="70px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/addpicture"
+        android:layout_width="700dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/addpicture"
+        android:src="@drawable/rainbowtwo"
+        android:layout_marginTop="30dp"
+        app:civ_border_width="1dp"
+        android:id="@+id/animalphoto"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/animalphoto"
+        android:id="@+id/cameralaunch"
+        android:src="@drawable/camera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-120dp"
+        />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:textSize="50px"
+        android:layout_marginTop="-130dp"
+        android:layout_below="@+id/cameralaunch"
+        android:id="@+id/cameratext"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Add A Picture."
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nextbutton"
+        android:layout_below="@+id/cameratext"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nextbuttontofragfour"/>
+</RelativeLayout>

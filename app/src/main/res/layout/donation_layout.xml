@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp"
+    android:layout_marginTop="10dp"
+    android:background="#ff8a80">
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/donationtextview"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="40px"
+        android:text="Ngo Name"/>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/donationtextview"
+        android:id="@+id/animalbeinghelped"
+        android:text="Animal Helped"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/plus"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/increaseamount"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:id="@+id/amount"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="13dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/minus"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/increaseamount"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/donate"
+        android:id="@+id/donatebutton"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="45dp"/>
+</RelativeLayout>
